@@ -57,7 +57,7 @@ function blocks_lsu_default_blockexport_settings() {
   'delta' => 'login',
   'theme' => 'bartik',
   'status' => 1,
-  'weight' => -18,
+  'weight' => -16,
   'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 0,
@@ -70,9 +70,9 @@ function blocks_lsu_default_blockexport_settings() {
   'module' => 'system',
   'delta' => 'navigation',
   'theme' => 'bartik',
-  'status' => 1,
-  'weight' => -19,
-  'region' => 'sidebar_first',
+  'status' => 0,
+  'weight' => -17,
+  'region' => -1,
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -436,11 +436,11 @@ function blocks_lsu_default_blockexport_settings() {
   'theme' => 'bartik',
   'status' => 1,
   'weight' => -18,
-  'region' => 'sidebar_second',
+  'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Advanced Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -450,11 +450,11 @@ function blocks_lsu_default_blockexport_settings() {
   'theme' => 'bartik',
   'status' => 1,
   'weight' => -19,
-  'region' => 'sidebar_second',
+  'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -463,8 +463,8 @@ function blocks_lsu_default_blockexport_settings() {
   'delta' => 'basic_facets',
   'theme' => 'bartik',
   'status' => 1,
-  'weight' => 0,
-  'region' => 'sidebar_second',
+  'weight' => -15,
+  'region' => 'sidebar_first',
   'custom' => 1,
   'visibility' => 0,
   'pages' => '',
@@ -505,7 +505,7 @@ function blocks_lsu_default_blockexport_settings() {
   'delta' => 'sort',
   'theme' => 'bartik',
   'status' => 1,
-  'weight' => -17,
+  'weight' => -14,
   'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 0,
@@ -552,7 +552,7 @@ function blocks_lsu_default_blockexport_settings() {
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Advanced Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -566,7 +566,7 @@ function blocks_lsu_default_blockexport_settings() {
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -742,9 +742,9 @@ function blocks_lsu_default_blockexport_settings() {
   'module' => 'islandora_compound_object',
   'delta' => 'compound_navigation',
   'theme' => 'bartik',
-  'status' => 0,
+  'status' => 1,
   'weight' => 0,
-  'region' => -1,
+  'region' => 'sidebar_second',
   'custom' => 0,
   'visibility' => 1,
   'pages' => 'islandora/object/*',
@@ -1210,7 +1210,7 @@ function blocks_lsu_default_blockexport_settings() {
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Advanced Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -1224,7 +1224,7 @@ function blocks_lsu_default_blockexport_settings() {
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -1742,7 +1742,7 @@ function blocks_lsu_default_blockexport_settings() {
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Advanced Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -1756,7 +1756,7 @@ function blocks_lsu_default_blockexport_settings() {
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -2274,7 +2274,7 @@ function blocks_lsu_default_blockexport_settings() {
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Advanced Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -2358,7 +2358,7 @@ function blocks_lsu_default_blockexport_settings() {
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
-  'title' => '',
+  'title' => 'Search',
   'cache' => -1,
 );
   $export['block'][] = array(
@@ -2668,6 +2668,60 @@ function blocks_lsu_default_blockexport_settings() {
   'pages' => '',
   'title' => '',
   'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 191,
+  'module' => 'block',
+  'delta' => 1,
+  'theme' => 'bartik',
+  'status' => 1,
+  'weight' => 0,
+  'region' => 'sidebar_first',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => 'Sample Institutions',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 192,
+  'module' => 'block',
+  'delta' => 1,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => 'Sample Institutions',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 193,
+  'module' => 'menu',
+  'delta' => 'menu-participating-institutions',
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block_custom'][] = array(
+  'bid' => 1,
+  'body' => '<ul>
+  <li><a href="http://lsuhscs.ldl.lib.lsu.edu/">Louisiana Health Shreveport</a></li>
+  <li> <a href="http://loyno.ldl.lib.lsu.edu/">Loyola</a></li>
+  <li><a href="http://lsu.ldl.lib.lsu.edu/">Louisiana State</a></li>
+  <li><a href="http://hnoc.ldl.lib.lsu.edu/">Historic New Orleans Collections</a></li>
+  <li><a href="http://lsuhsc.ldl.lib.lsu.edu/">LSU Health New Orleans</a></li>
+<ul>',
+  'info' => 'Participating Institions',
+  'format' => 'full_html',
 );
   $export['block_node_type'][] = array(
   'module' => 'islandora_solr_facet_pages',

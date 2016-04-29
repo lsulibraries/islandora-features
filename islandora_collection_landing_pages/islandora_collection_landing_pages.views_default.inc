@@ -71,7 +71,7 @@ function islandora_collection_landing_pages_views_default_views() {
   $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['label'] = '';
   $handler->display->display_options['fields']['field_thumbnail']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_thumbnail']['alter']['text'] = '<a href="http://ldl.lib.lsu.edu/islandora/object/[field_pid]">[field_thumbnail]</a>';
+  $handler->display->display_options['fields']['field_thumbnail']['alter']['text'] = '<a href="/islandora/object/[field_pid]">[field_thumbnail]</a>';
   $handler->display->display_options['fields']['field_thumbnail']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_thumbnail']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_thumbnail']['settings'] = array(
@@ -95,7 +95,7 @@ function islandora_collection_landing_pages_views_default_views() {
   $handler->display->display_options['fields']['body']['field'] = 'body';
   $handler->display->display_options['fields']['body']['label'] = '';
   $handler->display->display_options['fields']['body']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['body']['alter']['text'] = '<h3><a href="http://ldl.lib.lsu.edu/islandora/object/[field_pid]">[title]</a></h3>
+  $handler->display->display_options['fields']['body']['alter']['text'] = '<h3><a href="/islandora/object/[field_pid]">[title]</a></h3>
 [body]';
   $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['body']['hide_alter_empty'] = FALSE;
