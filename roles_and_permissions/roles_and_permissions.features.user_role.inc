@@ -28,5 +28,17 @@ function roles_and_permissions_user_default_roles() {
     'weight' => 4,
   );
 
+  // Exported role: repository admin.
+  $roles['repository admin'] = array(
+    'name' => 'repository admin',
+    'weight' => 5,
+  );
+
+  // Exported role: site admin.
+  $roles['site admin'] = array(
+    'name' => 'site admin',
+    'weight' => 6,
+  );
+
   return $roles;
 }
