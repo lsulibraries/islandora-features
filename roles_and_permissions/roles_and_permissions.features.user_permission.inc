@@ -137,6 +137,18 @@ function roles_and_permissions_user_default_permissions() {
     'module' => 'comment',
   );
 
+  // Exported permission: 'access content'.
+  $permissions['access content'] = array(
+    'name' => 'access content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+      'institution administrator' => 'institution administrator',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'access content overview'.
   $permissions['access content overview'] = array(
     'name' => 'access content overview',
@@ -1316,6 +1328,18 @@ function roles_and_permissions_user_default_permissions() {
       'site admin' => 'site admin',
     ),
     'module' => 'search',
+  );
+
+  // Exported permission: 'search islandora solr'.
+  $permissions['search islandora solr'] = array(
+    'name' => 'search islandora solr',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+      'institution administrator' => 'institution administrator',
+    ),
+    'module' => 'islandora_solr',
   );
 
   // Exported permission: 'select account cancellation method'.
