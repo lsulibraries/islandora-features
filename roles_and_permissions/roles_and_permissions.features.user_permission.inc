@@ -144,7 +144,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
-      'institution administrator' => 'institution administrator',
     ),
     'module' => 'node',
   );
@@ -368,6 +367,15 @@ function roles_and_permissions_user_default_permissions() {
       'site admin' => 'site admin',
     ),
     'module' => 'features',
+  );
+
+  // Exported permission: 'administer fields'.
+  $permissions['administer fields'] = array(
+    'name' => 'administer fields',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'field',
   );
 
   // Exported permission: 'administer filters'.
@@ -1337,7 +1345,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
-      'institution administrator' => 'institution administrator',
     ),
     'module' => 'islandora_solr',
   );
