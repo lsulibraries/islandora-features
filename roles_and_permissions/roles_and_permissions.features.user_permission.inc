@@ -848,11 +848,7 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'create landing_page content'.
   $permissions['create landing_page content'] = array(
     'name' => 'create landing_page content',
-    'roles' => array(
-      'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -902,11 +898,7 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'delete any landing_page content'.
   $permissions['delete any landing_page content'] = array(
     'name' => 'delete any landing_page content',
-    'roles' => array(
-      'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -946,11 +938,7 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'delete own landing_page content'.
   $permissions['delete own landing_page content'] = array(
     'name' => 'delete own landing_page content',
-    'roles' => array(
-      'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -1010,11 +998,7 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'edit any landing_page content'.
   $permissions['edit any landing_page content'] = array(
     'name' => 'edit any landing_page content',
-    'roles' => array(
-      'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -1065,11 +1049,7 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'edit own landing_page content'.
   $permissions['edit own landing_page content'] = array(
     'name' => 'edit own landing_page content',
-    'roles' => array(
-      'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 

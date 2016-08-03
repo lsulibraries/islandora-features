@@ -58,25 +58,16 @@ function islandora_collection_landing_pages_views_default_views() {
     ),
   );
   $handler->display->display_options['style_options']['override'] = FALSE;
-  /* Field: Content: pid */
-  $handler->display->display_options['fields']['field_pid']['id'] = 'field_pid';
-  $handler->display->display_options['fields']['field_pid']['table'] = 'field_data_field_pid';
-  $handler->display->display_options['fields']['field_pid']['field'] = 'field_pid';
-  $handler->display->display_options['fields']['field_pid']['label'] = '';
-  $handler->display->display_options['fields']['field_pid']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['field_pid']['element_label_colon'] = FALSE;
-  /* Field: Content: thumbnail */
-  $handler->display->display_options['fields']['field_thumbnail']['id'] = 'field_thumbnail';
-  $handler->display->display_options['fields']['field_thumbnail']['table'] = 'field_data_field_thumbnail';
-  $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';
-  $handler->display->display_options['fields']['field_thumbnail']['label'] = '';
-  $handler->display->display_options['fields']['field_thumbnail']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_thumbnail']['alter']['text'] = '<a href="/islandora/object/[field_pid]">[field_thumbnail]</a>';
-  $handler->display->display_options['fields']['field_thumbnail']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_thumbnail']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_thumbnail']['settings'] = array(
+  /* Field: Content: Thumbnail */
+  $handler->display->display_options['fields']['field_lp_thumbnail']['id'] = 'field_lp_thumbnail';
+  $handler->display->display_options['fields']['field_lp_thumbnail']['table'] = 'field_data_field_lp_thumbnail';
+  $handler->display->display_options['fields']['field_lp_thumbnail']['field'] = 'field_lp_thumbnail';
+  $handler->display->display_options['fields']['field_lp_thumbnail']['label'] = '';
+  $handler->display->display_options['fields']['field_lp_thumbnail']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_lp_thumbnail']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_lp_thumbnail']['settings'] = array(
     'image_style' => '',
-    'image_link' => '',
+    'image_link' => 'content',
   );
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
@@ -88,17 +79,28 @@ function islandora_collection_landing_pages_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['title']['hide_alter_empty'] = FALSE;
-  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
-  /* Field: Content: Body */
-  $handler->display->display_options['fields']['body']['id'] = 'body';
-  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
-  $handler->display->display_options['fields']['body']['field'] = 'body';
-  $handler->display->display_options['fields']['body']['label'] = '';
-  $handler->display->display_options['fields']['body']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['body']['alter']['text'] = '<h3><a href="/islandora/object/[field_pid]">[title]</a></h3>
-[body]';
-  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['body']['hide_alter_empty'] = FALSE;
+  /* Field: Content: PID */
+  $handler->display->display_options['fields']['field_lp_pid']['id'] = 'field_lp_pid';
+  $handler->display->display_options['fields']['field_lp_pid']['table'] = 'field_data_field_lp_pid';
+  $handler->display->display_options['fields']['field_lp_pid']['field'] = 'field_lp_pid';
+  $handler->display->display_options['fields']['field_lp_pid']['label'] = '';
+  $handler->display->display_options['fields']['field_lp_pid']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_lp_pid']['alter']['text'] = '<a href="/islandora/object/[field_lp_pid]:collection">Browse Items in this Collection</a>';
+  $handler->display->display_options['fields']['field_lp_pid']['element_label_colon'] = FALSE;
+  /* Field: Content: Short Description */
+  $handler->display->display_options['fields']['field_lp_short_description']['id'] = 'field_lp_short_description';
+  $handler->display->display_options['fields']['field_lp_short_description']['table'] = 'field_data_field_lp_short_description';
+  $handler->display->display_options['fields']['field_lp_short_description']['field'] = 'field_lp_short_description';
+  $handler->display->display_options['fields']['field_lp_short_description']['label'] = '';
+  $handler->display->display_options['fields']['field_lp_short_description']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_lp_short_description']['alter']['text'] = '<h2>[title]</h2>
+<p class="short_desc">[field_lp_short_description]</p>
+<p class="browse_collection"><a href="/islandora/object/[field_lp_pid]:collection">Browse Items in this Collection</a>';
+  $handler->display->display_options['fields']['field_lp_short_description']['alter']['max_length'] = '500';
+  $handler->display->display_options['fields']['field_lp_short_description']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['field_lp_short_description']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['field_lp_short_description']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_lp_short_description']['element_default_classes'] = FALSE;
   /* Sort criterion: Content: Title */
   $handler->display->display_options['sorts']['title']['id'] = 'title';
   $handler->display->display_options['sorts']['title']['table'] = 'node';
