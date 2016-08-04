@@ -1191,18 +1191,6 @@ function roles_and_permissions_user_default_permissions() {
     'module' => 'islandora',
   );
 
-  // Exported permission: 'manage usage stats'.
-  $permissions['manage usage stats'] = array(
-    'name' => 'manage usage stats',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
-    ),
-    'module' => 'islandora_usage_stats',
-  );
-
   // Exported permission: 'migrate collection members'.
   $permissions['migrate collection members'] = array(
     'name' => 'migrate collection members',
@@ -1478,31 +1466,6 @@ function roles_and_permissions_user_default_permissions() {
       'site admin' => 'site admin',
     ),
     'module' => 'islandora_image_annotation',
-  );
-
-  // Exported permission: 'view islandora usage stats collection overview stats'.
-  $permissions['view islandora usage stats collection overview stats'] = array(
-    'name' => 'view islandora usage stats collection overview stats',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
-    ),
-    'module' => 'islandora_usage_stats',
-  );
-
-  // Exported permission: 'view islandora usage stats reports'.
-  $permissions['view islandora usage stats reports'] = array(
-    'name' => 'view islandora usage stats reports',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
-    ),
-    'module' => 'islandora_usage_stats',
   );
 
   // Exported permission: 'view marcxml output'.
