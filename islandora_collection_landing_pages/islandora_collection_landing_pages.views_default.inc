@@ -58,27 +58,11 @@ function islandora_collection_landing_pages_views_default_views() {
     ),
   );
   $handler->display->display_options['style_options']['override'] = FALSE;
-  /* Field: Content: Thumbnail */
-  $handler->display->display_options['fields']['field_lp_thumbnail']['id'] = 'field_lp_thumbnail';
-  $handler->display->display_options['fields']['field_lp_thumbnail']['table'] = 'field_data_field_lp_thumbnail';
-  $handler->display->display_options['fields']['field_lp_thumbnail']['field'] = 'field_lp_thumbnail';
-  $handler->display->display_options['fields']['field_lp_thumbnail']['label'] = '';
-  $handler->display->display_options['fields']['field_lp_thumbnail']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_lp_thumbnail']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_lp_thumbnail']['settings'] = array(
-    'image_style' => '',
-    'image_link' => 'content',
-  );
-  /* Field: Content: Title */
-  $handler->display->display_options['fields']['title']['id'] = 'title';
-  $handler->display->display_options['fields']['title']['table'] = 'node';
-  $handler->display->display_options['fields']['title']['field'] = 'title';
-  $handler->display->display_options['fields']['title']['label'] = '';
-  $handler->display->display_options['fields']['title']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
-  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['title']['hide_alter_empty'] = FALSE;
+  /* Field: Content: Path */
+  $handler->display->display_options['fields']['path']['id'] = 'path';
+  $handler->display->display_options['fields']['path']['table'] = 'node';
+  $handler->display->display_options['fields']['path']['field'] = 'path';
+  $handler->display->display_options['fields']['path']['exclude'] = TRUE;
   /* Field: Content: PID */
   $handler->display->display_options['fields']['field_lp_pid']['id'] = 'field_lp_pid';
   $handler->display->display_options['fields']['field_lp_pid']['table'] = 'field_data_field_lp_pid';
@@ -87,15 +71,27 @@ function islandora_collection_landing_pages_views_default_views() {
   $handler->display->display_options['fields']['field_lp_pid']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_lp_pid']['alter']['text'] = '<a href="/islandora/object/[field_lp_pid]:collection">Browse Items in this Collection</a>';
   $handler->display->display_options['fields']['field_lp_pid']['element_label_colon'] = FALSE;
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['title']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['hide_alter_empty'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
   /* Field: Content: Short Description */
   $handler->display->display_options['fields']['field_lp_short_description']['id'] = 'field_lp_short_description';
   $handler->display->display_options['fields']['field_lp_short_description']['table'] = 'field_data_field_lp_short_description';
   $handler->display->display_options['fields']['field_lp_short_description']['field'] = 'field_lp_short_description';
   $handler->display->display_options['fields']['field_lp_short_description']['label'] = '';
   $handler->display->display_options['fields']['field_lp_short_description']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_lp_short_description']['alter']['text'] = '<h2>[title]</h2>
+  $handler->display->display_options['fields']['field_lp_short_description']['alter']['text'] = '<h2><a href="/islandora/object/[field_lp_pid]:collection">[title]</a></h2>
 <p class="short_desc">[field_lp_short_description]</p>
-<p class="browse_collection"><a href="/islandora/object/[field_lp_pid]:collection">Browse Items in this Collection</a>';
+<p class="about_collection"><a href="[path]">About this Collection</a>';
   $handler->display->display_options['fields']['field_lp_short_description']['alter']['max_length'] = '500';
   $handler->display->display_options['fields']['field_lp_short_description']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['field_lp_short_description']['alter']['ellipsis'] = FALSE;
@@ -124,10 +120,48 @@ function islandora_collection_landing_pages_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'landing_page' => 'landing_page',
   );
+  /* Filter criterion: Content: Title */
+  $handler->display->display_options['filters']['title']['id'] = 'title';
+  $handler->display->display_options['filters']['title']['table'] = 'node';
+  $handler->display->display_options['filters']['title']['field'] = 'title';
+  $handler->display->display_options['filters']['title']['operator'] = 'word';
+  $handler->display->display_options['filters']['title']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['title']['expose']['operator_id'] = 'title_op';
+  $handler->display->display_options['filters']['title']['expose']['label'] = 'Search by Collection Title';
+  $handler->display->display_options['filters']['title']['expose']['operator'] = 'title_op';
+  $handler->display->display_options['filters']['title']['expose']['identifier'] = 'title';
+  $handler->display->display_options['filters']['title']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    3 => 0,
+    4 => 0,
+    5 => 0,
+    6 => 0,
+    7 => 0,
+  );
+  /* Filter criterion: Content: Body (body) */
+  $handler->display->display_options['filters']['body_value']['id'] = 'body_value';
+  $handler->display->display_options['filters']['body_value']['table'] = 'field_data_body';
+  $handler->display->display_options['filters']['body_value']['field'] = 'body_value';
+  $handler->display->display_options['filters']['body_value']['operator'] = 'word';
+  $handler->display->display_options['filters']['body_value']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['body_value']['expose']['operator_id'] = 'body_value_op';
+  $handler->display->display_options['filters']['body_value']['expose']['label'] = 'Search Descriptions';
+  $handler->display->display_options['filters']['body_value']['expose']['operator'] = 'body_value_op';
+  $handler->display->display_options['filters']['body_value']['expose']['identifier'] = 'body_value';
+  $handler->display->display_options['filters']['body_value']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    3 => 0,
+    4 => 0,
+    5 => 0,
+    6 => 0,
+    7 => 0,
+  );
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'islandora-collection-landing-pages';
+  $handler->display->display_options['path'] = 'browse-collections';
   $handler->display->display_options['menu']['type'] = 'normal';
   $handler->display->display_options['menu']['title'] = 'islandora collection landing pages';
   $handler->display->display_options['menu']['name'] = 'features';

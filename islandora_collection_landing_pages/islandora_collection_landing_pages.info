@@ -1,7 +1,7 @@
 name = Landing Pages
 core = 7.x
 package = Features
-version = 7.x-1.6
+version = 7.x-1.7
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = feeds
