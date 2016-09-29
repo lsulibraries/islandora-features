@@ -4083,6 +4083,48 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'title' => '',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 295,
+  'module' => 'block',
+  'delta' => 10,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => '',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 296,
+  'module' => 'block',
+  'delta' => 10,
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => -21,
+  'region' => 'sidebar_first',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 297,
+  'module' => 'block',
+  'delta' => 10,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => '',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
   $export['block_custom'][] = array(
   'bid' => 1,
   'body' => '<a href="/advanced-search">Advanced Search</a>',
@@ -4151,6 +4193,12 @@ Louisiana State University</p>
 </div>
 ',
   'info' => 'Flex Footer',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 10,
+  'body' => '<div class="sidebarLabel">Refine results</div>',
+  'info' => 'Sidebar Facet Label',
   'format' => 'full_html',
 );
   $export['block_node_type'][] = array(
