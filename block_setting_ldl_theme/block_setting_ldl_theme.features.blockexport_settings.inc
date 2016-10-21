@@ -3966,8 +3966,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'weight' => 0,
   'region' => -1,
   'custom' => 0,
-  'visibility' => 0,
-  'pages' => '',
+  'visibility' => 1,
+  'pages' => '<front>',
   'title' => '',
   'cache' => -1,
 );
@@ -3980,8 +3980,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'weight' => -29,
   'region' => 'content',
   'custom' => 0,
-  'visibility' => 0,
-  'pages' => '',
+  'visibility' => 1,
+  'pages' => '<front>',
   'title' => '',
   'cache' => -1,
 );
@@ -3994,8 +3994,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'weight' => 0,
   'region' => -1,
   'custom' => 0,
-  'visibility' => 0,
-  'pages' => '',
+  'visibility' => 1,
+  'pages' => '<front>',
   'title' => '',
   'cache' => -1,
 );
@@ -4125,6 +4125,48 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'title' => '',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 301,
+  'module' => 'views',
+  'delta' => '5164407b51848f38225ffcf1293862b3',
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => -22,
+  'region' => 'content',
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '<none>',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 302,
+  'module' => 'views',
+  'delta' => '5164407b51848f38225ffcf1293862b3',
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '<none>',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 303,
+  'module' => 'views',
+  'delta' => '5164407b51848f38225ffcf1293862b3',
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '<none>',
+  'cache' => -1,
+);
   $export['block_custom'][] = array(
   'bid' => 1,
   'body' => '<a href="/advanced-search">Advanced Search</a>',
@@ -4166,17 +4208,21 @@ function block_setting_ldl_theme_default_blockexport_settings() {
 </div>
 
 <div class="bookmarkEnd">
-<p class="hideMe">test</p>
+<p>&nbsp;</p>
 </div>
 </div>
 
 <div class="landingHero">&nbsp;</div>
 
-<div class="landingContainer">
+<div class="messageContainer">
+<div class="landingMessage">
 <div class="landingHeader">Let\'s discover Louisiana together.</div>
 
 <div class="landingText">The Louisiana Digital Library (LDL) is an online library of Louisiana institutions that provides over 144,000 digital materials. Its purpose is to make unique historical treasures from the Louisiana institution\'s archives, libraries, museums, and other repositories in the state electronically accessible to Louisiana residents and to students, researchers, and the general public in other states and countries. The Louisiana Digital Library contains photographs, maps, manuscript materials, books, oral histories, and more that document history and culture. We hope that you find the items in the Digital Library as diverse and interesting as the people and places in Louisiana.</div>
+</div>
+</div>
 
+<div class="landingContainer">
 <div class="landingNav">&nbsp;</div>
 </div>
 ',
