@@ -29,7 +29,7 @@ function islandora_collection_landing_pages_views_default_views() {
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'full';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '12';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['pager']['options']['id'] = '0';
   $handler->display->display_options['pager']['options']['quantity'] = '9';
@@ -66,7 +66,7 @@ function islandora_collection_landing_pages_views_default_views() {
   $handler->display->display_options['fields']['field_lp_short_description']['label'] = '';
   $handler->display->display_options['fields']['field_lp_short_description']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['field_lp_short_description']['alter']['text'] = '<h2><a href="/islandora/object/[field_lp_pid]:collection">[title]</a></h2>
-<p class="short_desc">[field_lp_short_description]</p>
+<div class="short_desc">[field_lp_short_description]</div>
 </td>
 <td class="collectionLinks">
 <a href="[path]"><p class="about_collection">About</p></a>
@@ -127,10 +127,20 @@ function islandora_collection_landing_pages_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
+  $handler->display->display_options['defaults']['use_ajax'] = FALSE;
   $handler->display->display_options['path'] = 'browse-collections';
   $handler->display->display_options['menu']['type'] = 'normal';
   $handler->display->display_options['menu']['title'] = 'islandora collection landing pages';
   $handler->display->display_options['menu']['name'] = 'features';
+
+  /* Display: Minigrid */
+  $handler = $view->new_display('block', 'Minigrid', 'minigrid');
+  $handler->display->display_options['defaults']['css_class'] = FALSE;
+  $handler->display->display_options['css_class'] = 'minigrid';
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['block_description'] = 'Minigrid';
   $export['islandora_collection_landing_pages'] = $view;
 
   return $export;
