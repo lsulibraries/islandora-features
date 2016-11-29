@@ -34,6 +34,7 @@ function islandora_collection_landing_pages_views_default_views() {
   $handler->display->display_options['pager']['options']['id'] = '0';
   $handler->display->display_options['pager']['options']['quantity'] = '9';
   $handler->display->display_options['style_plugin'] = 'table';
+
   $handler->display->display_options['style_options']['default_row_class'] = FALSE;
   $handler->display->display_options['style_options']['row_class_special'] = FALSE;
   $handler->display->display_options['style_options']['columns'] = array(
@@ -58,6 +59,16 @@ function islandora_collection_landing_pages_views_default_views() {
     ),
   );
   $handler->display->display_options['style_options']['override'] = FALSE;
+
+  /* Header: Global: Alpha Pagination */
+  $handler->display->display_options['header']['alpha_pagination']['id'] = 'alpha_pagination';
+  $handler->display->display_options['header']['alpha_pagination']['table'] = 'views';
+  $handler->display->display_options['header']['alpha_pagination']['field'] = 'alpha_pagination';
+  $handler->display->display_options['header']['alpha_pagination']['label'] = 'Alphabetical Paging';
+  $handler->display->display_options['header']['alpha_pagination']['pre_letter_path'] = 'browse-collections';
+  $handler->display->display_options['header']['alpha_pagination']['paginate_all_display'] = '1';
+  $handler->display->display_options['header']['alpha_pagination']['paginate_view_numbers'] = '0';
+
   /* Field: Content: Path */
   $handler->display->display_options['fields']['path']['id'] = 'path';
   $handler->display->display_options['fields']['path']['table'] = 'node';
@@ -106,6 +117,20 @@ function islandora_collection_landing_pages_views_default_views() {
   $handler->display->display_options['sorts']['changed']['table'] = 'node';
   $handler->display->display_options['sorts']['changed']['field'] = 'changed';
   $handler->display->display_options['sorts']['changed']['order'] = 'DESC';
+  /* Contextual filter: Content: Title */
+  $handler->display->display_options['arguments']['title']['id'] = 'title';
+  $handler->display->display_options['arguments']['title']['table'] = 'node';
+  $handler->display->display_options['arguments']['title']['field'] = 'title';
+  $handler->display->display_options['arguments']['title']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['title']['default_argument_type'] = 'fixed';
+  $handler->display->display_options['arguments']['title']['default_argument_options']['argument'] = 'a';
+  $handler->display->display_options['arguments']['title']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['title']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['title']['summary_options']['items_per_page'] = '25';
+  $handler->display->display_options['arguments']['title']['specify_validation'] = TRUE;
+  $handler->display->display_options['arguments']['title']['glossary'] = TRUE;
+  $handler->display->display_options['arguments']['title']['limit'] = '1';
+  $handler->display->display_options['arguments']['title']['path_case'] = 'upper';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
