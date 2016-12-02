@@ -16,8 +16,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -28,8 +26,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -40,8 +36,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -52,8 +46,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -63,8 +55,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'Edit existing OCR stream',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_paged_content',
   );
@@ -74,8 +65,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'Import entities from csv',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_entities_csv_import',
   );
@@ -88,8 +78,6 @@ function roles_and_permissions_user_default_permissions() {
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -99,8 +87,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'Manage CSL Citations',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'csl',
   );
@@ -110,7 +97,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'access administration pages',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'system',
   );
@@ -120,7 +107,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'access all views',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'views',
   );
@@ -132,7 +118,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
-      'site admin' => 'site admin',
     ),
     'module' => 'comment',
   );
@@ -154,8 +139,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -166,8 +149,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'contextual',
   );
@@ -177,8 +158,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'access dashboard',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'dashboard',
   );
@@ -188,8 +168,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'access google analytics reports',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'google_analytics_reports',
   );
@@ -199,7 +178,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'access rules debug',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'rules',
   );
@@ -209,7 +187,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'access site in maintenance mode',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'system',
   );
@@ -219,7 +196,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'access site reports',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'system',
   );
@@ -230,7 +206,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'toolbar',
   );
@@ -241,8 +216,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'user',
   );
@@ -254,8 +227,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -265,8 +236,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer Islandora BagIt',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_bagit',
   );
@@ -276,7 +245,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer actions',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'system',
   );
@@ -287,8 +255,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'block',
   );
@@ -298,7 +264,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer comments',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'comment',
   );
@@ -310,8 +276,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_compound_object',
   );
@@ -321,7 +285,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer content types',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -331,8 +295,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer contexts',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'context_ui',
   );
@@ -342,8 +305,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer delta',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'delta_ui',
   );
@@ -353,8 +315,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer delta blocks',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'delta_blocks',
   );
@@ -364,7 +325,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer features',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'features',
   );
@@ -383,7 +343,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer filters',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'filter',
   );
@@ -393,8 +352,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer google analytics',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'googleanalytics',
   );
@@ -404,8 +362,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer google analytics reports api',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'google_analytics_reports_api',
   );
@@ -415,8 +372,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer image styles',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'image',
   );
@@ -427,8 +383,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_entities',
   );
@@ -438,8 +392,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora oai',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_oai',
   );
@@ -450,8 +403,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_solr',
   );
@@ -461,8 +412,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora_bookmark',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_bookmark',
   );
@@ -472,8 +422,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora_pathauto',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_pathauto',
   );
@@ -484,8 +433,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_solr_metadata',
   );
@@ -496,8 +443,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_xacml_api',
   );
@@ -507,8 +452,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora_xacml_editor',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_xacml_editor',
   );
@@ -518,7 +462,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer menu',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'menu',
   );
@@ -528,8 +472,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer module filter',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'module_filter',
   );
@@ -539,7 +482,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer modules',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'system',
   );
@@ -550,7 +492,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -561,7 +502,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'pathauto',
   );
@@ -571,8 +511,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer permissions',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'user',
   );
@@ -582,7 +521,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer rules',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'rules',
   );
@@ -593,7 +532,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'search',
   );
@@ -604,7 +542,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'shortcut',
   );
@@ -615,7 +552,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'system',
   );
@@ -625,7 +561,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer software updates',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'system',
   );
@@ -635,7 +570,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer taxonomy',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'taxonomy',
   );
@@ -646,7 +581,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'system',
   );
@@ -657,7 +591,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'path',
   );
@@ -668,8 +601,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'user',
   );
@@ -679,7 +610,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer views',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'views',
   );
@@ -689,8 +619,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer xacml inheritance',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_xacml_editor',
   );
@@ -700,7 +629,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer xmlsitemap',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'xmlsitemap',
   );
@@ -710,7 +639,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'block IP addresses',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'system',
   );
@@ -721,8 +649,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_simple_workflow',
   );
@@ -732,7 +658,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'bypass node access',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -742,7 +667,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'bypass rules access',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'rules',
   );
@@ -752,8 +676,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'can embargo any object',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_scholar_embargo',
   );
@@ -763,8 +686,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'can embargo owned objects',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_scholar_embargo',
   );
@@ -774,7 +696,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'cancel account',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'user',
   );
@@ -784,8 +705,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'change own username',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'user',
   );
@@ -795,8 +714,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'context ajax block access',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'context_ui',
   );
@@ -806,8 +724,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'create Islandora Bags',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_bagit',
   );
@@ -817,7 +733,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'create article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -828,8 +744,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_basic_collection',
   );
@@ -839,8 +753,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'create image annotations',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_image_annotation',
   );
@@ -848,7 +761,10 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'create landing_page content'.
   $permissions['create landing_page content'] = array(
     'name' => 'create landing_page content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'collection admin' => 'collection admin',
+    ),
     'module' => 'node',
   );
 
@@ -858,7 +774,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -869,7 +784,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'path',
   );
@@ -880,7 +794,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'shortcut',
   );
@@ -890,7 +803,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'delete any article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -898,7 +811,10 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'delete any landing_page content'.
   $permissions['delete any landing_page content'] = array(
     'name' => 'delete any landing_page content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'collection admin' => 'collection admin',
+    ),
     'module' => 'node',
   );
 
@@ -908,7 +824,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -919,8 +834,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -930,7 +843,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'delete own article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -938,7 +851,10 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'delete own landing_page content'.
   $permissions['delete own landing_page content'] = array(
     'name' => 'delete own landing_page content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'collection admin' => 'collection admin',
+    ),
     'module' => 'node',
   );
 
@@ -948,7 +864,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -959,7 +874,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -969,7 +883,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'delete terms in tags',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'taxonomy',
   );
@@ -979,8 +893,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'download premis metadata',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_premis',
   );
@@ -990,7 +903,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'edit any article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -998,7 +911,10 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'edit any landing_page content'.
   $permissions['edit any landing_page content'] = array(
     'name' => 'edit any landing_page content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'collection admin' => 'collection admin',
+    ),
     'module' => 'node',
   );
 
@@ -1008,7 +924,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -1020,8 +935,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -1031,7 +944,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'edit own article content',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -1041,7 +954,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'edit own comments',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'comment',
   );
@@ -1049,7 +962,10 @@ function roles_and_permissions_user_default_permissions() {
   // Exported permission: 'edit own landing_page content'.
   $permissions['edit own landing_page content'] = array(
     'name' => 'edit own landing_page content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'collection admin' => 'collection admin',
+    ),
     'module' => 'node',
   );
 
@@ -1059,7 +975,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -1069,8 +984,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'edit scholar metadata',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_entities',
   );
@@ -1080,7 +994,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'edit terms in tags',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'taxonomy',
   );
@@ -1090,8 +1004,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'export islandora bookmarks',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_bookmark',
   );
@@ -1101,7 +1014,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'generate features',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'features',
   );
@@ -1113,8 +1025,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -1125,8 +1035,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_batch',
   );
@@ -1137,8 +1045,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_basic_collection',
   );
@@ -1150,8 +1056,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -1161,7 +1065,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'manage features',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'features',
   );
@@ -1172,8 +1075,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_simple_workflow',
   );
@@ -1185,8 +1086,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -1197,8 +1096,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_basic_collection',
   );
@@ -1208,7 +1105,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'notify of path changes',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'pathauto',
   );
@@ -1218,8 +1115,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'opt-in or out of tracking',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'googleanalytics',
   );
@@ -1230,7 +1125,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'authenticated user' => 'authenticated user',
-      'site admin' => 'site admin',
     ),
     'module' => 'comment',
   );
@@ -1242,8 +1136,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -1253,7 +1145,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'rename features',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'features',
   );
@@ -1265,8 +1156,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -1277,7 +1166,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -1289,8 +1177,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -1301,7 +1187,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'search',
   );
@@ -1322,7 +1207,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'select account cancellation method',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'user',
   );
@@ -1332,8 +1216,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'share islandora bookmarks',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_bookmark',
   );
@@ -1344,7 +1227,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'authenticated user' => 'authenticated user',
-      'site admin' => 'site admin',
     ),
     'module' => 'comment',
   );
@@ -1355,7 +1237,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'shortcut',
   );
@@ -1365,8 +1246,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'use PHP for tracking visibility',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'googleanalytics',
   );
@@ -1377,7 +1256,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'search',
   );
@@ -1387,7 +1265,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'use ctools import',
     'roles' => array(
       'administrator' => 'administrator',
-      'site admin' => 'site admin',
     ),
     'module' => 'ctools',
   );
@@ -1397,8 +1274,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'use islandora_bookmark',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_bookmark',
   );
@@ -1412,8 +1288,6 @@ function roles_and_permissions_user_default_permissions() {
       'authenticated user' => 'authenticated user',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'filter',
   );
@@ -1423,8 +1297,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'use text format full_html',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'filter',
   );
@@ -1435,8 +1308,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'filter',
   );
@@ -1449,8 +1320,6 @@ function roles_and_permissions_user_default_permissions() {
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -1462,8 +1331,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_image_annotation',
   );
@@ -1473,8 +1340,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'view marcxml output',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_marcxml',
   );
@@ -1486,8 +1352,6 @@ function roles_and_permissions_user_default_permissions() {
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora',
   );
@@ -1498,8 +1362,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -1509,8 +1371,7 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'view premis metadata',
     'roles' => array(
       'administrator' => 'administrator',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
+      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_premis',
   );
@@ -1521,7 +1382,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'node',
   );
@@ -1534,8 +1394,6 @@ function roles_and_permissions_user_default_permissions() {
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
       'collection admin' => 'collection admin',
-      'repository admin' => 'repository admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'islandora_fits',
   );
@@ -1546,7 +1404,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'system',
   );
