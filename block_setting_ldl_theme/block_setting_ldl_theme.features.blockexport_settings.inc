@@ -450,7 +450,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'theme' => 'bartik',
   'status' => 1,
   'weight' => -19,
-  'region' => 'sidebar_second',
+  'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -2858,7 +2858,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'theme' => 'ldl',
   'status' => 1,
   'weight' => 0,
-  'region' => 'logo',
+  'region' => 'header_first',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -2871,8 +2871,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'site-name',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 15,
-  'region' => 'sitename',
+  'weight' => 0,
+  'region' => 'header_first',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -2899,7 +2899,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'branding',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -21,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2927,7 +2927,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'breadcrumb',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -20,
+  'weight' => -30,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2969,7 +2969,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'action-links',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -22,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2983,7 +2983,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'feed-icons',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -17,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -2997,7 +2997,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'inline',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -14,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3011,7 +3011,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'islandora_altmetrics_altmetrics',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -13,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 1,
@@ -3025,7 +3025,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'collection_object_count',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -9,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3039,7 +3039,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'collection_listing',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -10,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3053,7 +3053,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'islandora_bookmark',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -12,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3067,7 +3067,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'islandora_bookmark_list_info',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -11,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3095,7 +3095,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'compound_jail_display',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -8,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 1,
@@ -3123,8 +3123,8 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'simple',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -2,
-  'region' => 'header_first',
+  'weight' => 2,
+  'region' => 'header_second',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -3137,7 +3137,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'basic_facets',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => -4,
+  'weight' => -20,
   'region' => 'sidebar_first',
   'custom' => 1,
   'visibility' => 0,
@@ -3151,7 +3151,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'current_query',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -3,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3165,7 +3165,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'display_switch',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -6,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3193,7 +3193,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'explore',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -5,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3221,7 +3221,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'islandora-solr-facet-pages',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -7,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3291,7 +3291,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'features',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -18,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3403,7 +3403,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'navigation',
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 6,
+  'weight' => -20,
   'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 0,
@@ -3444,9 +3444,9 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'module' => 'system',
   'delta' => 'main-menu',
   'theme' => 'ldl',
-  'status' => 1,
+  'status' => 0,
   'weight' => 1,
-  'region' => 'menu',
+  'region' => -1,
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -3458,9 +3458,9 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'module' => 'user',
   'delta' => 'login',
   'theme' => 'ldl',
-  'status' => 0,
-  'weight' => 21,
-  'region' => -1,
+  'status' => 1,
+  'weight' => -19,
+  'region' => 'sidebar_first',
   'custom' => 0,
   'visibility' => 0,
   'pages' => '',
@@ -3515,7 +3515,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => '2e471cea8459491b84c00c691114ef5c',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -15,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3529,7 +3529,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => '7196cbb81df1d17ca0cd459c31c8eac4',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -16,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3711,7 +3711,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 'editor',
   'theme' => 'ldl',
   'status' => 0,
-  'weight' => -19,
+  'weight' => 1,
   'region' => -1,
   'custom' => 0,
   'visibility' => 0,
@@ -3767,7 +3767,7 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'delta' => 1,
   'theme' => 'ldl',
   'status' => 1,
-  'weight' => 0,
+  'weight' => 3,
   'region' => 'header_second',
   'custom' => 0,
   'visibility' => 0,
@@ -3789,11 +3789,481 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   'title' => '<none>',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 271,
+  'module' => 'block',
+  'delta' => 2,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 272,
+  'module' => 'block',
+  'delta' => 2,
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 273,
+  'module' => 'block',
+  'delta' => 2,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 274,
+  'module' => 'block',
+  'delta' => 3,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 275,
+  'module' => 'block',
+  'delta' => 3,
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 7,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 276,
+  'module' => 'block',
+  'delta' => 3,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 277,
+  'module' => 'block',
+  'delta' => 4,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 278,
+  'module' => 'block',
+  'delta' => 4,
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => 1,
+  'region' => 'header_second',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 279,
+  'module' => 'block',
+  'delta' => 4,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 280,
+  'module' => 'block',
+  'delta' => 5,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 281,
+  'module' => 'block',
+  'delta' => 5,
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 4,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 282,
+  'module' => 'block',
+  'delta' => 5,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 283,
+  'module' => 'block',
+  'delta' => 6,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 284,
+  'module' => 'block',
+  'delta' => 6,
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => -29,
+  'region' => 'content',
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 285,
+  'module' => 'block',
+  'delta' => 6,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 289,
+  'module' => 'block',
+  'delta' => 8,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 290,
+  'module' => 'block',
+  'delta' => 8,
+  'theme' => 'ldl',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 291,
+  'module' => 'block',
+  'delta' => 8,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 292,
+  'module' => 'block',
+  'delta' => 9,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 293,
+  'module' => 'block',
+  'delta' => 9,
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => -21,
+  'region' => 'content',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 294,
+  'module' => 'block',
+  'delta' => 9,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 295,
+  'module' => 'block',
+  'delta' => 10,
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 296,
+  'module' => 'block',
+  'delta' => 10,
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => -21,
+  'region' => 'sidebar_first',
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 297,
+  'module' => 'block',
+  'delta' => 10,
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 301,
+  'module' => 'views',
+  'delta' => '5164407b51848f38225ffcf1293862b3',
+  'theme' => 'ldl',
+  'status' => 1,
+  'weight' => -22,
+  'region' => 'content',
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '<none>',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 302,
+  'module' => 'views',
+  'delta' => '5164407b51848f38225ffcf1293862b3',
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '<none>',
+  'cache' => -1,
+);
+  $export['block'][] = array(
+  'bid' => 303,
+  'module' => 'views',
+  'delta' => '5164407b51848f38225ffcf1293862b3',
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 1,
+  'pages' => '<front>',
+  'title' => '<none>',
+  'cache' => -1,
+);
   $export['block_custom'][] = array(
   'bid' => 1,
   'body' => '<a href="/advanced-search">Advanced Search</a>',
   'info' => 'Advanced Search Link',
   'format' => 'filtered_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 2,
+  'body' => '<p>Switch</p>
+',
+  'info' => 'Theme Switch',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 3,
+  'body' => '<p>LSU Libraries</p>
+',
+  'info' => '"LSU | Libraries" Logo',
+  'format' => 'filtered_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 4,
+  'body' => '<p>test</p>
+',
+  'info' => 'Bookmark Top',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 5,
+  'body' => 'test',
+  'info' => 'Bookmark Main',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 6,
+  'body' => '<div class="bookmark">
+<div class="bookmarkWelcome">
+<h2>Welcome to the Louisiana Digital Library.</h2>
+</div>
+
+<div class="bookmarkEnd">
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="landingHero">&nbsp;</div>
+
+<div class="messageContainer">
+<div class="landingMessage">
+<div class="landingHeader">Let\'s discover Louisiana together.</div>
+
+<div class="landingText">The Louisiana Digital Library (LDL) is an online library of Louisiana institutions that provides over 144,000 digital materials. Its purpose is to make unique historical treasures from the Louisiana institution\'s archives, libraries, museums, and other repositories in the state electronically accessible to Louisiana residents and to students, researchers, and the general public in other states and countries. The Louisiana Digital Library contains photographs, maps, manuscript materials, books, oral histories, and more that document history and culture. We hope that you find the items in the Digital Library as diverse and interesting as the people and places in Louisiana.</div>
+</div>
+</div>
+
+<div class="landingContainer">
+<div class="landingNav">&nbsp;</div>
+</div>
+',
+  'info' => 'Welcome',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 8,
+  'body' => '<p>test</p>
+',
+  'info' => 'Logo and Sitename Combined',
+  'format' => 'filtered_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 9,
+  'body' => '<div class="footerContainer">
+<div class="footerText">
+<p>Middleton Library<br />
+Baton Rouge, LA 70803</p>
+
+<p>Tel (225) 578-5652<br />
+Fax (225) 578-9432</p>
+
+<p>Copyright 2016 All Rights Reserved<br />
+Official Web Page Of<br />
+Louisiana State University</p>
+</div>
+
+<div class="footerImg"><img alt="" src="http://i.imgur.com/MuY1yyN.png" />
+<div class="footerTitle"><span class="bold">Louisiana</span>&nbsp;Digital&nbsp;Library</div>
+</div>
+</div>
+',
+  'info' => 'Flex Footer',
+  'format' => 'full_html',
+);
+  $export['block_custom'][] = array(
+  'bid' => 10,
+  'body' => '<div class="sidebarLabel">Refine results</div>',
+  'info' => 'Sidebar Facet Label',
+  'format' => 'full_html',
 );
   $export['block_node_type'][] = array(
   'module' => 'islandora_solr_facet_pages',
@@ -3813,6 +4283,11 @@ function block_setting_ldl_theme_default_blockexport_settings() {
   $export['block_role'][] = array(
   'module' => 'islandora_solr_facet_pages',
   'delta' => 'islandora-solr-facet-pages',
+  'rid' => 1,
+);
+  $export['block_role'][] = array(
+  'module' => 'system',
+  'delta' => 'navigation',
   'rid' => 1,
 );
   $export['block_role'][] = array(
