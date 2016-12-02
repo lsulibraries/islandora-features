@@ -40,7 +40,7 @@ function islandora_collection_landing_pages_feeds_importer_default() {
       'plugin_key' => 'FeedsNodeProcessor',
       'config' => array(
         'expire' => '-1',
-        'author' => '0',
+        'author' => 0,
         'authorize' => 0,
         'mappings' => array(
           0 => array(
@@ -86,7 +86,7 @@ function islandora_collection_landing_pages_feeds_importer_default() {
         ),
         'insert_new' => '1',
         'update_existing' => '2',
-        'update_non_existent' => 'delete',
+        'update_non_existent' => 'skip',
         'input_format' => 'plain_text',
         'skip_hash_check' => 0,
         'bundle' => 'landing_page',

@@ -1,7 +1,7 @@
 name = Landing Pages
 core = 7.x
 package = Features
-version = 7.x-1.8
+version = 7.x-1.11
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = feeds
@@ -46,3 +46,4 @@ features[variable][] = node_preview_landing_page
 features[variable][] = node_submitted_landing_page
 features[variable][] = pathauto_node_landing_page_pattern
 features[views_view][] = islandora_collection_landing_pages
+features[views_view][] = landing_pages_management
