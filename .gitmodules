@@ -1,0 +1,3 @@
+[submodule "views_lsu"]
+	path = views_lsu
+	url = https://github.com/lsulibraries/islandora_feature_views
