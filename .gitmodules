@@ -1,3 +1,15 @@
 [submodule "views_lsu"]
 	path = views_lsu
 	url = https://github.com/lsulibraries/islandora_feature_views
+[submodule "islandora_collection_landing_pages"]
+	path = islandora_collection_landing_pages
+	url = https://github.com/lsulibraries/islandora_feature_collection_landing_pages
+[submodule "solr_lsu_settings"]
+	path = solr_lsu_settings
+	url = https://github.com/lsulibraries/islandora_feature_solr_settings
+[submodule "block_setting_ldl_theme"]
+	path = block_setting_ldl_theme
+	url = https://github.com/lsulibraries/islandora_feature_block_setting_ldl_theme
+[submodule "roles_and_permissions"]
+	path = roles_and_permissions
+	url = https://github.com/lsulibraries/islandora_feature_roles_and_permissions

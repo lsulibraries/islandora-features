@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the blocks_lsu feature.
- */
-
-include_once 'blocks_lsu.features.inc';
