@@ -1284,7 +1284,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'use text format filtered_html',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
@@ -1306,6 +1305,7 @@ function roles_and_permissions_user_default_permissions() {
   $permissions['use text format islandora_solr_metadata_filtered_html'] = array(
     'name' => 'use text format islandora_solr_metadata_filtered_html',
     'roles' => array(
+      'administrator' => 'administrator',
       'collection admin' => 'collection admin',
       'intern' => 'intern',
     ),
