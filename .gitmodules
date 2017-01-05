@@ -13,3 +13,6 @@
 [submodule "roles_and_permissions"]
 	path = roles_and_permissions
 	url = https://github.com/lsulibraries/islandora_feature_roles_and_permissions
+[submodule "documentation"]
+	path = documentation
+	url = https://github.com/lsulibraries/ldl-feature-documentation.git
