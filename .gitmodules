@@ -16,3 +16,6 @@
 [submodule "adv_search_node"]
 	path = adv_search_node
 	url = https://github.com/lsulibraries/adv_search_node
+[submodule "documentation"]
+	path = documentation
+	url = https://github.com/lsulibraries/ldl-feature-documentation.git
