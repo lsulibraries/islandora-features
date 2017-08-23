@@ -10,12 +10,12 @@
 [submodule "block_setting_ldl_theme"]
 	path = block_setting_ldl_theme
 	url = https://github.com/lsulibraries/islandora_feature_block_setting_ldl_theme
-[submodule "roles_and_permissions"]
-	path = roles_and_permissions
-	url = https://github.com/lsulibraries/islandora_feature_roles_and_permissions
 [submodule "adv_search_node"]
 	path = adv_search_node
 	url = https://github.com/lsulibraries/adv_search_node
 [submodule "documentation"]
 	path = documentation
 	url = https://github.com/lsulibraries/ldl-feature-documentation.git
+[submodule "ldl_permissions"]
+	path = ldl_permissions
+	url = https://github.com/lsulibraries/ldl_permissions.git
