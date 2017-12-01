@@ -16,6 +16,3 @@
 [submodule "documentation"]
 	path = documentation
 	url = https://github.com/lsulibraries/ldl-feature-documentation.git
-[submodule "ldl_permissions"]
-	path = ldl_permissions
-	url = https://github.com/lsulibraries/ldl_permissions.git
