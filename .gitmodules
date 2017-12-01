@@ -7,9 +7,6 @@
 [submodule "solr_lsu_settings"]
 	path = solr_lsu_settings
 	url = https://github.com/lsulibraries/islandora_feature_solr_settings
-[submodule "block_setting_ldl_theme"]
-	path = block_setting_ldl_theme
-	url = https://github.com/lsulibraries/islandora_feature_block_setting_ldl_theme
 [submodule "adv_search_node"]
 	path = adv_search_node
 	url = https://github.com/lsulibraries/adv_search_node
